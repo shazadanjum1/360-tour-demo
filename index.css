@@ -1,0 +1,193 @@
+.navbar-brand {
+    font-family:Be Vietnam !important;
+    font-size: calc(4rem + 2vw) !important;
+    color: #4A4A4A;
+   
+}
+
+.nav-link{
+    font-size: calc(1rem + 0.5vw) !important;
+    margin-right: 1.5rem !important;
+}
+
+.navbar-collapse{
+    justify-content: end !important;
+}
+.section-heading{
+    font-size: calc(2rem + 2vw )!important;
+    color: #4A4A4A;
+    font-family:Be Vietnam;
+    text-align: center;
+    width: 100%;
+}
+
+.about-section{
+   padding-left: 10% !important;
+   padding-right: 10% !important;
+   text-align: justify;
+}
+
+.section-text{
+    font-size: calc(1rem + 0.5vw )!important;
+    margin-top: 1.5rem;
+
+}
+
+.product-single{
+display:grid;
+grid-template-rows: 80% 20%;
+border: 1px solid black;
+margin:1rem !important;
+width: 33%;
+height: 550px;
+transition: 0.2s all ease-in-out;
+ 
+}
+
+.product-single:hover  {
+    transform: scale(1.05);
+    cursor: pointer;
+
+    box-shadow:
+    inset 0 -1em 1em rgba(0,0,0,0.1),
+          0 0  0 0px rgb(255,255,255),
+          1em 0.1em 1em rgba(0,0,0,0.3);
+}
+
+#products{
+    display:flex;
+    flex-wrap: wrap ;
+    align-items: center;
+    justify-content: center;
+}
+
+.responsive{
+    width: 100%;
+}
+
+
+.product-single-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.product-single-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product-image-list{
+ border: 1px solid black;
+ display: flex;
+ justify-content: center !important;
+ align-items: center !important;
+ height: fit-content;
+
+}
+
+
+#view-in-your-space{
+    border: 1px solid #000000;
+    border-radius: 14px;
+    width: 80%;
+    padding:10px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+
+}
+#view-in-your-space:hover{
+    background-color: rgba(128, 128, 128, 0.281);
+
+}
+#product-image-1{
+    background-color: rgba(128, 128, 128, 0.281);
+
+}
+
+#product-name{
+    
+    margin: 3rem;
+}
+
+.product-image-btn:hover{
+
+    cursor: pointer;
+    /* border-radius: 1rem; */
+    background-color: rgba(128, 128, 128, 0.281);
+}
+
+
+.container {
+    height: 80%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.container > p {
+    position: absolute;
+    top: 100%;
+    margin-top: -100px;
+}
+
+
+.chair-orange-model{
+    margin-top: -6rem;
+ 
+   }
+
+
+ .row{
+     margin: 0px !important;
+ }  
+
+ #model-viewer-multiple:host{
+
+    height: 100% !important;
+    width: 100% !important;
+ }
+
+
+  
+@media screen and (max-width: 991px) {
+   .landing-model{
+    height:30vh
+   }
+
+   .chair-orange-model{
+    margin-top: 0rem !important;
+
+   }
+
+   .responsive{
+    width: 60%;
+}
+
+  }
+
+
+  input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 60%;
+    margin: 0.5rem;
+}
+.custom-file-upload:hover{
+    background-color: rgba(128, 128, 128, 0.281);
+   
+}
